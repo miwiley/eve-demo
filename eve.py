@@ -1,11 +1,10 @@
-# !pip install dash==2.0.0
-# !pip install jupyter-dash
+#Demo application for project EVE
 
 import os
 import openai
 import time
 
-openai.api_key = "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"
+openai.api_key = "PUT YOUR API KEY HERE"
 
 from jupyter_dash import JupyterDash
 from dash import dcc
